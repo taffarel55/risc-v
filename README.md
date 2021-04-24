@@ -11,8 +11,6 @@ Repositório com intuito de reunir lista com as instruções mais básicas para 
 
 ## Lista de instruções básicas:
 
-<center>
-
 |   Função   |        Tipo         |       Comando       |
 |:----------:|:-------------------:|:-------------------:|
 |    Load    |        Byte         |  `LB rd, rs1, imm`  |
@@ -53,22 +51,20 @@ Repositório com intuito de reunir lista com as instruções mais básicas para 
 | Jump & Link |         J&L         |    `JAL rd,imm`     |
 | Jump & Link |    J&L Register     |  `JALR rd,rs1,imm`  |
 
-</center>
-
 
 ## Exemplos
 1. basic arithmetic
-    - add_sub.s - Mostrando como somar ou subtrair números
+    - [add_sub.s](https://github.com/taffarel55/risc-v/blob/main/1.%20basic%20arithmetic/add_sub.s) - Mostrando como somar ou subtrair números
 2. data transfer
-    - load.s - Como realizar as operações LB, LH E LW
-    - store.s - Como realizar as operações SB, SH E SW
+    - [load.s](https://github.com/taffarel55/risc-v/blob/main/2.%20data%20transfer/load.s) - Como realizar as operações LB, LH E LW
+    - [store.s](https://github.com/taffarel55/risc-v/blob/main/2.%20data%20transfer/store.s) - Como realizar as operações SB, SH E SW
 3. control flow
-    - beq.s - Exemplo do uso de BEQ para fazer `if else`
-    - bne.s - Exemplo do uso de BNE para fazer `if else`
-    - loop.s - Exemplo de um loop `do while`, `for` ou `while`
+    - [beq.s](https://github.com/taffarel55/risc-v/blob/main/3.%20control%20flow/beq.s) - Exemplo do uso de BEQ para fazer `if else`
+    - [bne.s](https://github.com/taffarel55/risc-v/blob/main/3.%20control%20flow/bne.s) - Exemplo do uso de BNE para fazer `if else`
+    - [loop.s](https://github.com/taffarel55/risc-v/blob/main/3.%20control%20flow/loop.s) - Exemplo de um loop `do while`, `for` ou `while`
 - examples
-    - fat.s - Implementação de de um programa que calcula o fatorial
-    - vetor.s - Uso de ponteiros para trabalhar com vetores
+    - [fat.s](https://github.com/taffarel55/risc-v/blob/main/examples/fat.s) - Implementação de de um programa que calcula o fatorial
+    - [vetor.s](https://github.com/taffarel55/risc-v/blob/main/examples/vetor.s) - Uso de ponteiros para trabalhar com vetores
 
 ## Contribuindo
 
